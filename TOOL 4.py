@@ -16,7 +16,7 @@ import pymysql
 # In[13]:
 
 
-youtube = pd.read_excel (r'C:\Users\aidan\Downloads\youtube_dataset.xlsx')
+youtube = pd.read_excel (r'C:\Users\Username\Downloads\youtube_dataset.xlsx')
 youtube.head(1000)
 
 
@@ -45,7 +45,7 @@ print(raw_df)
 # In[44]:
 
 
-engine = create_engine('mysql+pymysql://bob:hello@localhost/vg_db')
+engine = create_engine('mysql+pymysql://Username:Password@localhost/vg_db')
 # connection string
 conn = engine.connect()
 
